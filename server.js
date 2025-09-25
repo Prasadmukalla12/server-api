@@ -2,7 +2,7 @@ const mongoClient = require("mongodb").MongoClient
 const express = require("express")
 const cors = require("cors")
 const mongodb = "mongodb://localhost:27017"
-const port = process.env.PORT || 4000
+const port = 4000
 
 const app = express()
 app.use(cors())
